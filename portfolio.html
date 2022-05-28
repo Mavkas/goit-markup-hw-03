@@ -4,27 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="modern-normalize" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
-    <link rel="stylesheet" href="./css/styles.css">
+    <title>Портфолио</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-    <title>Портфолио</title>
- </head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
 <body class="portfolio">
     <header>
-        <nav>  
+        <nav class="container-nav">  
         <a class="logo" lang="en" href=""><span class="logo-color">Web</span>Studio</a>
-            <ul>
+            <ul class="list-style nav">
                <li class="header"><a  class="header-item" href="./index.html">Студия</a></li>
                <li class="header"><a  class="header-item current" href="./portfolio.html">Портфолио</a></li>
                <li class="header"><a  class="header-item" href="">Контакты</a></li>
            </ul>
-           </nav>
-           <ul>
+        </nav>
+             <ul class="list-style">
                <li><a class="mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
                <li><a class="tel" href="tel:+380961111111">+38 096 111 11 11</a></li>
            </ul>
+           
+        
          </header>
 <main>
     <section class="menu">
@@ -36,8 +38,7 @@
            <li><button type="button" class="menu-btn">Дизайн</button></li>
            <li><button type="button" class="menu-btn">Маркетинг</button></li>
         </ul>
- 
- <ul class="pictures">
+<ul class="pictures">
             <li><a>
                 <img src="./images/img1.2.jpg" alt="компьютер с фото" width="370"
                 height="294">
@@ -62,19 +63,19 @@
                    <h2>Проект Prime</h2>
                        <p>Маркетинг</p>
             </a></li>
-           <li><a>
+            <li><a>
                <img src="./images/img5.2.jpg" alt="коробки" width="370" 
                height="294">
                    <h2>Проект Boxes</h2>
                        <p>Приложение</p>
             </a></li>
-           <li><a>
+            <li><a>
                <img src="./images/img6.2.jpg" alt="компьютер" width="370"
                 height="294">
                    <h2>Inspiration has no Borders</h2>
                        <p>Веб-сайт</p>
             </a></li>
-            <li><a></a>
+            <li><a>
                 <img src="./images/img7.2.jpg" alt="книга" width="370"
                 height="294">
                     <h2>Издание Limited Edition</h2>
@@ -85,13 +86,13 @@
                 height="294">
                     <h2>Проект LAB</h2>
                         <p>Маркетинг</p>
-            </li>
+            </a></li>
             <li><a>
                 <img src="./images/img9.2.jpg" alt="лэптоп" width="370"
                 height="294">
                     <h2>Growing Business</h2>
                         <p>Приложение</p>
-            </li>
+            </a></li>
         </ul>
     </section>
 </main>
